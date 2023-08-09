@@ -1,0 +1,28 @@
+[
+    {
+        "name": "30212061700198",
+        "email": "zezo.nassar444@gmail.com",
+        "password": "$2y$10$j\/HTgRgjrPMk.Ab8X0MP7.J7Zwt8Bt3cT91TH\/cInHAHiIyUccQ6W",
+        "gender": "Male"
+    },
+    {
+        "name": "zezo1122",
+        "email": "zezo.nassar444@gmail.com",
+        "password": "$2y$10$DSKRbyMsijTNAY\/RQUluTeOcBPcvFLsIkuOcU4vsSXap5pQ4cSBPm",
+        "gender": "Male"
+    },
+    {
+        "id": 1,
+        "name": "04210208",
+        "email": "somanassar60@gmail.com",
+        "password": "$2y$10$sGCa88IDPOQjfNDUH2HgEOV0O2RbNArO8nRM5dqE3VVdPPAAF7flK",
+        "gender": "Male"
+    },
+    {
+        "id": 2,
+        "name": "zezo.nassar",
+        "email": "ezznassar38@gmail.com",
+        "password": "$2y$10$hsIJeWtuLd.MtrDisEQo4OMCtv1dbVlj0\/QOTPVv\/y3AasbAAMASS",
+        "gender": "Male"
+    }
+]
