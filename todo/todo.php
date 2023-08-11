@@ -29,20 +29,22 @@ if($_POST['name']=="add"){
 }else{
     $name_ =explode("'",$_POST['name']);
     $list = readFromJsonFile("../tasks.json");
+    echo"<pre>";
     var_dump($list);
     echo "<br>";
     $name=$name_[1];
    
-    foreach ($list as $task) {
+    foreach ($list as  $i=> $task) {
          if ($task['tasks'] == $name){
-             unset($task[1]);
+             unset($list[$i]);
             echo "savjkrq3;og.<br>";
          }
     }
+    echo"<pre>";
     var_dump($list);
     file_put_contents("../tasks.json", json_encode($list, JSON_PRETTY_PRINT));
      header("location:todo_.php");
-     die;
+      die;
 }
 
 
